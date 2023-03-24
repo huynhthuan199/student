@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/datvutech_stopwatch-webui/static/css/main.5a333946.css",
-    "main.js": "/datvutech_stopwatch-webui/static/js/main.234d5c72.js",
-    "static/js/787.d7079b59.chunk.js": "/datvutech_stopwatch-webui/static/js/787.d7079b59.chunk.js",
-    "static/media/rongviet-icon.jpg": "/datvutech_stopwatch-webui/static/media/rongviet-icon.4869680947df0495e5f0.jpg",
-    "index.html": "/datvutech_stopwatch-webui/index.html",
-    "main.5a333946.css.map": "/datvutech_stopwatch-webui/static/css/main.5a333946.css.map",
-    "main.234d5c72.js.map": "/datvutech_stopwatch-webui/static/js/main.234d5c72.js.map",
-    "787.d7079b59.chunk.js.map": "/datvutech_stopwatch-webui/static/js/787.d7079b59.chunk.js.map"
+    "main.css": "/student/static/css/main.5a333946.css",
+    "main.js": "/student/static/js/main.3e46a3f4.js",
+    "static/js/787.cbef9b6b.chunk.js": "/student/static/js/787.cbef9b6b.chunk.js",
+    "static/media/rongviet-icon.jpg": "/student/static/media/rongviet-icon.4869680947df0495e5f0.jpg",
+    "index.html": "/student/index.html",
+    "main.5a333946.css.map": "/student/static/css/main.5a333946.css.map",
+    "main.3e46a3f4.js.map": "/student/static/js/main.3e46a3f4.js.map",
+    "787.cbef9b6b.chunk.js.map": "/student/static/js/787.cbef9b6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a333946.css",
-    "static/js/main.234d5c72.js"
+    "static/js/main.3e46a3f4.js"
   ]
 }
