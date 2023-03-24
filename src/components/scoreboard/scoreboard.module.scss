@@ -1,0 +1,110 @@
+.wrapper {
+    --default-cell-padding: 4px 8px;
+    border-radius: var(--global-border-radius);
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    margin: 4px;
+    width: 100%;
+    h1 {
+        font-size: 1.8rem;
+        display: flex;
+    }
+    .heading {
+        border-bottom: 1px solid var(--grey-color);
+        display: flex;
+        justify-content: center;
+        font-size: 3.2rem;
+        padding: 0;
+    }
+}
+
+.chooser {
+    display: flex;
+    padding: 4px;
+    .options {
+        color: var(--primary-color);
+        outline: none;
+        margin-left: 4px;
+        border: 1px solid var(--primary-color);
+        border-radius: var(--global-border-radius);
+    }
+}
+
+.scoreboard-header,
+.records {
+    width: 100%;
+    display: flex;
+    border: 1px solid var(--primary-color);
+    .col-label {
+        font-size: 1.8rem;
+    }
+    .col-1 {
+        width: 60px;
+    }
+    .col-2 {
+        width: 200px;
+    }
+    .col-3 {
+        width: 120px;
+    }
+    .col-4 {
+        width: 150px;
+    }
+    .col-25{
+        width: 25%
+    }
+    .col-33{
+        width: 33.33%
+    }
+
+    .cell {
+        border: 1px solid var(--primary-color);
+        // padding: 4px;
+    }
+}
+
+.records {
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.inner {
+    border-collapse: collapse;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--global-border-radius);
+}
+.time {
+    padding: var(--default-cell-padding);
+    width: 100%;
+}
+.header {
+    display: flex;
+}
+
+.header-team,
+.cell-team {
+    border: 1px solid var(--primary-color);
+    padding: var(--default-cell-padding);
+    width: 120px;
+}
+.header-time,
+.cell-time {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    border: 1px solid var(--primary-color);
+    padding: var(--default-cell-padding);
+}
+
+.header-team,
+.header-time {
+    border-top: 2px solid var(--primary-color);
+}
+
+.btn-in-cell {
+    height: 32px;
+    margin-left: 12px;
+}
+.row {
+    display: flex;
+}

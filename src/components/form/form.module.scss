@@ -1,0 +1,23 @@
+.title {
+    font-size: 28px;
+}
+
+.form-label {
+    font-size: 18px;
+}
+
+.form-input {
+    border: 1px solid var(--grey-color);
+    padding: 8px 12px;
+    border-radius: var(--global-border-radius);
+    width: fit-content;
+
+    input {
+        height: 22px;
+        font-size: 1.7rem;
+    }
+
+    &:focus-within {
+        border: 1px solid var(--primary-color);
+    }
+}
